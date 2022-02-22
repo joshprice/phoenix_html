@@ -711,6 +711,8 @@ defmodule Phoenix.HTML.Form do
   Generates a search input.
 
   See `text_input/3` for example and docs.
+  
+  TODO this doesn't point you in the right direction
   """
   def search_input(form, field, opts \\ []) do
     generic_input(:search, form, field, opts)
